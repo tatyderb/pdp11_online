@@ -72,4 +72,4 @@ fin = fopen("test.o", "r");
 
 Вы действительно считаете, что для широкораспространенной задачи, которая нужна всем и часто не написали стандартных функций?
 
-[getopt](https://stepik.org/lesson/514364/step/1?unit=506646)
+[getopt](https://www.gnu.org/software/libc/manual/html_node/Example-of-Getopt.html)
