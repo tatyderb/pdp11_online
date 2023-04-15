@@ -59,7 +59,7 @@ lesson = 347539
 | RORb d      | B060DD   | `****`| Rotate Right                 | d=->{C,d}    | 
 | RTS  r      | 00020R   | `----`   | Return from Subroutine       | PC=r,r=(SP)+ | 
 | SBCb d      | B056DD   | `****`| Subtract Carry               | d=d-C        | 
-| SCC         | 000277   | `1111`   | Set all Condition Codes      | {C,N,V,Z}=0  | 
+| SCC         | 000277   | `1111`   | Set all Condition Codes      | {C,N,V,Z}=1  | 
 | SEC         | 000261   | `---1`   | Set Carry                    | C=1          | 
 | SEN         | 000270   | `1---`   | Set Negative                 | N=1          | 
 | SEV         | 000262   | `--1-`   | Set Overflow                 | V=1          | 
