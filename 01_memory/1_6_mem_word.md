@@ -22,7 +22,7 @@ word mem[MEMSIZE];
 
 ```cpp
 // Запись слова val по адресу adr
-void w_write (adress adr, word val)
+void w_write (address adr, word val)
 {
     // проверка, что адрес слова четный
     assert((mem & 1) == 0);
@@ -30,7 +30,7 @@ void w_write (adress adr, word val)
 }
     
 // Возвращает слово по адресу adr
-word w_read (adress adr)
+word w_read (address adr)
 {
     return mem[adr];
 }
@@ -55,7 +55,7 @@ word w_read (adress adr)
 
 ```cpp
 // Возвращает байт по адресу adr
-word b_read (adress adr)
+word b_read (address adr)
 {
     word w;
     byte bres;

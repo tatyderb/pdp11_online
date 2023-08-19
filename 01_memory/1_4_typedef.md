@@ -95,10 +95,10 @@ word mem[MEMSIZE];          // память
 
 Определим специальные функции чтения и записи байта и слова в эту память (массив `mem`):
 
-* `void b_write (adress adr, byte val)` - пишем значение (байт) `val` по адресу `adr`;
-* `byte b_read (adress adr)` - читаем байт по адресу `adr` и возвращаем его;
-* `void w_write (adress adr, word val)` - пишем значение (слово) `val` по адресу `adr`;
-* `word w_read (adress adr)` - читаем слово по адресу `adr` и возвращаем его;
+* `void b_write (address adr, byte val)` - пишем значение (байт) `val` по адресу `adr`;
+* `byte b_read (address adr)` - читаем байт по адресу `adr` и возвращаем его;
+* `void w_write (address adr, word val)` - пишем значение (слово) `val` по адресу `adr`;
+* `word w_read (address adr)` - читаем слово по адресу `adr` и возвращаем его;
 
 ## Шаг 4. Пишем тесты
 
@@ -132,7 +132,7 @@ word mem[MEMSIZE];          // память
 ```cpp
 void test_mem()
 {
-    adress a;
+    address a;
     byte b0, b1, bres;
     word w, wres;
     

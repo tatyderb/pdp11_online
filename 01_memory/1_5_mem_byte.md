@@ -22,13 +22,13 @@ byte mem[MEMSIZE];
 
 ```cpp
 // Запись байта val по адресу adr
-void b_write (adress adr, byte val)
+void b_write (address adr, byte val)
 {
     mem[adr] = val;
 }
     
 // Возвращает байт по адресу adr
-byte b_read (adress adr)
+byte b_read (address adr)
 {
     return mem[adr];
 }
@@ -51,7 +51,7 @@ byte b_read (adress adr)
 
 ```cpp
 // Возвращает слово по адресу a
-word w_read (adress a)
+word w_read (address a)
 {
     word w = mem[a+1];
     w = w << 8;
