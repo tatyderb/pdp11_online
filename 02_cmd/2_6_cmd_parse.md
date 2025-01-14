@@ -307,7 +307,7 @@ typedef struct {
     word mask;
     word opcode;
     char * name;
-    (void *)do_command(void);
+    void (*do_command)(void);
 } Command;
 ```
 Объявим массив структур, которые описывают все наши команды. Допишите данные для команд `halt`, `add`, `mov`.
