@@ -86,7 +86,7 @@ void test_mem_one(address a, word w, byte b1, byte b0)
     byte bres1 = b_read(a+1);
     wres = w_read(a);
     // тут полезно написать отладочную печать a, w, wres
-    fprintf(stderr, "a=%06o b1=%02hhx b0=%02hhx wres=%04x\n", a, b1, b0, wres);
+    fprintf(stderr, "a=%06o bres1=%02hhx bres0=%02hhx wres=%04x\n", a, bres1, bres0, wres);
     assert(b0 == bres0);
     assert(b1 == bres1);
     
