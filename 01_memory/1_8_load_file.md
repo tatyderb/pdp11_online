@@ -6,6 +6,7 @@ lang = c
 ## SKIP VIDEO
 
 https://youtu.be/NzTzw8BmfvI
+https://plvideo.ru/watch?v=EtQT9GmbIPsr
 
 ## Загружаем программу в память PDP-11
 

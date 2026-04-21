@@ -6,6 +6,7 @@ lang = c
 ## SKIP VIDEO
 
 https://youtu.be/rfft_CAsjyU
+https://plvideo.ru/watch?v=3wYUs26hS7bb
 
 ## Запись и чтение байта
 

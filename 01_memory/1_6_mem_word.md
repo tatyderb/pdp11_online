@@ -6,6 +6,7 @@ lang = c
 ## SKIP VIDEO
 
 https://youtu.be/0R70V9aeszs
+https://plvideo.ru/watch?v=QOWPUJP0Cvq8
 
 ## Запись и чтение слова
 
@@ -25,7 +26,7 @@ word mem[MEMSIZE];
 void w_write (address adr, word val)
 {
     // проверка, что адрес слова четный
-    assert((mem & 1) == 0);
+    assert((adr & 1) == 0);
     mem[adr] = val;
 }
     

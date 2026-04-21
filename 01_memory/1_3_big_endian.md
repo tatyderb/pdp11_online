@@ -6,6 +6,7 @@ lesson = 312212
 
 Терминология 9:23.
 https://www.youtube.com/watch?v=eBXfExL_D70
+https://plvideo.ru/watch?v=BlOb9PnjbrK9
 
 ## Биты и байты
 

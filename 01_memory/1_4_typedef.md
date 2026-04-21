@@ -6,6 +6,7 @@ lang = c
 ## SKIP VIDEO 
 
 https://youtu.be/QYrjDhg4dPA
+https://plvideo.ru/watch?v=n0HpOKY1_tkk
 
 ## Побитовые операции
 
