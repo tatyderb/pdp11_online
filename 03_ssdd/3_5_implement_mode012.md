@@ -203,8 +203,8 @@ while(1) {
 void test_parse_mov()
 {
     trace(TRACE, __FUNCTION__);
-    Command cmd = parse_cmd(0017654);
-    assert(strcmp(cmd.name, "mov");
+    Command cmd = parse_cmd(0010604);
+    assert(0 == strcmp(cmd.name, "mov"));
     trace(TRACE, " ... OK\n");
 }
 // тест, что мы разобрали правильно аргументы ss и dd в mov R5, R3 
@@ -228,8 +228,8 @@ void test_mode0()
     reg[5] = 34;    // ss
     Command cmd = parse_cmd(0010503);
     cmd.do_command();
-    assert(reg[3] = 34);
-    assert(reg[5] = 34);
+    assert(reg[3] == 34);
+    assert(reg[5] == 34);
     trace(TRACE, " ... OK\n");
 }   
 ```
