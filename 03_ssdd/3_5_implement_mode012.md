@@ -325,9 +325,9 @@ void test_mode1_toreg()
     
     cmd.do_command();
     
-    assert(reg[3] = 34);
+    assert(reg[3] == 34);
     // проверяем, что значение регистра не изменилось
-    assert(reg[5] = 0200);  
+    assert(reg[5] == 0200);  
 
     trace(TRACE, " ... OK\n");
 }
